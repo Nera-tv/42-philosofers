@@ -1,1 +1,1 @@
-# 42-philosofers
+# 42-philosophers
