@@ -6,7 +6,7 @@
 /*   By: dvilard <dvilard@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/07 11:35:05 by dvilard           #+#    #+#             */
-/*   Updated: 2022/04/13 13:52:42 by dvilard          ###   ########.fr       */
+/*   Updated: 2022/05/23 19:10:45 by dvilard          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,6 @@ int	ft_return(t_table *t, int ret)
 	free(t->fork_state);
 	free(t->fork);
 	free(t->ph);
-	free(t);
 	return (ret);
 }
 
